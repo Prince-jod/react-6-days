@@ -1,12 +1,28 @@
+//  import {Bookmark} from "lucide-react"
 function Card(props){
-  console.log(props);
-  return (
+  
+   return (
     
-    <div className="card">
-    <h1>my name is {props.user}</h1>
-    <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit </p>
+  <div className="parent">
+ <div className="card">
+   <div className="top">
+    <img src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-logo-meaning.jpg" alt ="amazon"/>
+    
+   </div>
+     <div className="center">
+  <h3>FreeLancing</h3>
+  <p>i will build your app or website{}</p>
+     </div>
+    <div className="bottom">
+      <span>
+        <p>Buy now{props.price}</p>
+      </span>
+      <br></br>
+<button >save </button>
     </div>
-  )
-}
+  </div>
+</div>
+ )
+ }
 
-export default Card;
+ export default Card;
