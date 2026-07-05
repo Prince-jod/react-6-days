@@ -9,7 +9,7 @@ const App=()=>{
   return (
 <div className="Apps">
  <Card price="400$"/>
-  <Card price="100$"/>
+  <Card price="300$"/>
     <Card price="700$"/>
 
 </div>
